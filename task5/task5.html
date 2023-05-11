@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="task5.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <label>
+        номер страницы
+        <input id="pageNumber" class="inputvalue" type="text" placeholder="число от 1 до 10" required
+            onkeypress="handleKeyPress(event)">
+        <div id="errorNumber" hidden>
+            <p>Номер страницы вне диапазона от 1 до 10</p>
+        </div>
+    </label>
+    <label>
+        лимит
+        <input id="limit" class="inputvalue" type="text" placeholder="число от 1 до 10" required
+            onkeypress="handleKeyPress(event)">
+        <div id="errorLimit" hidden>
+            <p>Лимит вне диапазона от 1 до 10</p>
+        </div>
+    </label>
+    <span>запрос</span>
+    <br>
+    <button class=" buttonSubmit">done</button>
+    <div id="error" hidden>
+        <p>Номер страницы и лимит вне диапазона от 1 до 10</p>
+    </div>
+    <div class="result" id="result"></div>
+    <script src="task5.js"></script>
+</body>
+
+</html>

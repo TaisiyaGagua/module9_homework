@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="task3.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <input class="inputvalue" type="text" placeholder="число от 1 до 10" min="1" max="10"
+        onkeypress="handleKeyPress(event)">
+    <button class="buttonSubmit">GO</button>
+    <div id="error" hidden>
+        <p>число вне диапазона от 1 до 10</p>
+    </div>
+    <div id="container" class="container"></div>
+    <script src="task3.js"></script>
+</body>
+
+</html>

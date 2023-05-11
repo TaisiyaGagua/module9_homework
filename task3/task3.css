@@ -1,0 +1,60 @@
+body {
+    background-color: #e8fffa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputvalue {
+    margin: 4% 4% 10%;
+    padding: 0px 5px 0px 7px;
+    width: 160px;
+    font-size: 20px
+} 
+
+input::-webkit-input-placeholder {
+    color: #9fc1b9;
+} 
+
+.buttonSubmit {
+    transition: 0.3s;
+    margin-left: 4px;
+    border: 2px solid #21dcb1;    
+    border-radius: 4px;
+    background: #70ffde; 
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.buttonSubmit:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+
+} 
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+   
+.card {
+    margin: 20px;
+    width: 200px;
+}
+    
+.card-image {
+    display: block;
+    border-radius: 8px;
+    width: 200px;
+    height: 150px;;
+}
+
+#error {
+    margin-left: 25%;
+    border: 2px solid red;
+    background-color: rgb(255, 94, 94);
+    padding: 6px;
+    width: 160px;
+    height: 60px;
+    text-align: center; 
+}
